@@ -4,8 +4,7 @@ import os
 from datetime import date
 
 st.set_page_config(
-    page_title="Camino hacia titularme",
-    page_icon="🎓",
+    page_title="Rumbo a mi titulación",
     layout="wide"
 )
 
