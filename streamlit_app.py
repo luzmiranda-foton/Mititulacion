@@ -7,11 +7,11 @@ st.set_page_config(
 )
 
 st.title("Proceso a titularme")
-st.subheader("Formación, legislación y progreso académico")
+st.subheader("REGISTRO 19 al 23 de enero 2027")
 
 st.markdown("---")
 
-st.write("Bienvenida al sistema.")
+st.write("Bienvenida a tu progreso")
 
 st.info("Selecciona una sección en el menú lateral.")
 
