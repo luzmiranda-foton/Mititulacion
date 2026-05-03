@@ -29,16 +29,32 @@ st.markdown(
         background: rgba(0, 0, 0, 0.68);
         padding: 2rem;
         border-radius: 25px;
-        color: white;
     }
 
-    h1, h2, h3, h4, h5, h6, p, label, div, span {
+    .block-container h1,
+    .block-container h2,
+    .block-container h3,
+    .block-container p,
+    .block-container label {
         color: white !important;
+    }
+
+    input, textarea {
+        color: black !important;
+        background-color: white !important;
+    }
+
+    [data-baseweb="select"] * {
+        color: black !important;
+    }
+
+    [data-testid="stDateInput"] * {
+        color: black !important;
     }
 
     .stButton>button {
         background-color: #4b5cff;
-        color: white;
+        color: white !important;
         border-radius: 12px;
         border: none;
         padding: 0.5rem 1rem;
@@ -46,7 +62,7 @@ st.markdown(
 
     .stButton>button:hover {
         background-color: #7b61ff;
-        color: white;
+        color: white !important;
     }
     </style>
     """,
