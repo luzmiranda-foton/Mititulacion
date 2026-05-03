@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-SHEET_NAME = "Camino hacia titularme"
+SHEET_NAME = "Cursos electronica"
 
 ESTADOS = [
     "No iniciado",
